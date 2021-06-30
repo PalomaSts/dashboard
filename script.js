@@ -1,0 +1,5 @@
+src="../Hishcharts/code/highcharts.js"
+src="../Hishcharts/code/modules/series-label.js"
+src="../Hishcharts/code/modules/exporting.js"
+src="../Hishcharts/code/modules/export-data.js"
+src="../Hishcharts/code/modules/accessibility.js"

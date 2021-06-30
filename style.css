@@ -1,0 +1,259 @@
+
+.highcharts-figure, .highcharts-data-table table {
+    min-width: 100px; 
+    max-width: 600px;
+    width: auto;
+    /*margin: 1em auto;*/
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #EBEBEB;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+    padding: 0.5em;
+}
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+.container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flex-container-primeiro {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+    align-content: center;
+}
+
+.flex-container-segundo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+    align-content: center;
+}
+
+.flex-container-terceiro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    align-content: center;
+}
+
+.flex-item-linhas{
+    width:auto;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.flex-item-areas{
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+figure{
+    margin: 10px;
+}
+
+.border-success{
+    width: 200px;
+    height: 120px;
+}
+
+
+.flex-item-dados1{
+    height: auto;
+    width: auto;
+    background-color: none;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.flex-item-dados1:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+.flex-item-dados2{
+    height: auto;
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+.flex-item-dados3{
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.bg-success{
+    width: 600px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#card-verde{
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+body {
+    background-color:#F5FFFA;
+}
+
+#container4{
+    height: 225px;
+}
+
+#logo_loja{
+    height: 50px;
+}
+
+#primeiro-card{
+    margin-left: 30px;
+}
+
+#ultimo-card{
+    margin-right: 30px;
+}
+
+.modal {
+    width: 300px;
+}
+
+.modal-content {
+    width: 300px;
+}
+
+.list-group-item:hover{
+    background-color: #F5FFFA;
+    font-weight: bold;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color:initial
+}
+
+.profile-userpic img {
+    float: none;
+    margin: 0 65px;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+  
+.profile-usertitle {
+text-align: center;
+margin-top: 20px;
+}
+
+.profile-usertitle-name {
+color: 	#2E8B57;
+font-size: 16px;
+font-weight: 600;
+margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+text-transform: uppercase;
+color: #3CB371;
+font-size: 12px;
+font-weight: 600;
+margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1325px){
+    .flex-container-primeiro{
+        display:inline;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .flex-container-segundo{
+        display: block;
+    }
+    .flex-container-terceiro{
+        display: block;
+    }
+    figure{
+        margin: auto;
+    }
+    .bg-success{
+        width: auto;
+        height: auto;
+    }
+    .flex-item-dados1{
+        width: 200px;
+        height: 120px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 0 !important;
+    }
+
+    #primeiro-card{
+        margin-left: 5px;
+    }
+    
+    #ultimo-card{
+        margin-right: 5px;
+    }
+
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .flex-item-dados2{
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+
+    #logo_loja{
+        margin-top: 10px;
+    }
+}
